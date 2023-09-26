@@ -1,0 +1,29 @@
+@import "/src/Variables.scss";
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 600;
+        a:not(:first-child) {
+            margin-left: 44px;
+        }
+    }
+    button {
+        font-weight: 500;
+        font-size: 18px;
+        padding: 11px 20px;
+        background: #243241;
+        border-radius: 12px;
+    }
+    button:hover {
+        color: rgb(230, 230, 230);
+    }
+}
