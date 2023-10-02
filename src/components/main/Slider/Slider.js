@@ -44,6 +44,7 @@ export const Slider = () => {
                 <img className="Slider__content-Window-Item" src={imageIndex}></img>
             </div>
          </div>
+         <div id="Circle"></div>
          <button><img src={YoutubeButton}></img><p>Watch video</p></button>
         </div>
     )

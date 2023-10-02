@@ -1,0 +1,50 @@
+@import "/src/Variables.scss";
+.Works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 200px;
+    .Works__h2 {
+        display: flex;
+        justify-content: center;
+        #Circle {
+            bottom: 0;
+        }
+        h2 {
+            font-size: $HeadingSize;
+            font-weight: 700;
+            line-height: 80px;
+        }
+        div {
+            position: relative;
+            min-width: 55px;
+            min-height: 43px;
+            img {
+                position: absolute;
+                top: -15px;
+                right: -15px;
+            }
+        }
+    }
+    .Works__List {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 44px;
+        .Works__List-item {
+            div {
+                margin: 2px;
+                border-radius: 40px;
+                border: 2px solid #2a3744;
+                background-color: #121e28;
+            }
+            p {
+                margin-top: 16px;
+                font-size: 22px;
+                line-height: 40px;
+            }
+        }
+    }
+}
