@@ -2,10 +2,10 @@ import React from "react";
 import Logo from './Logo.svg'
 import "./header.scss";
 
-export function Header() {
+export const Header = () => {
     return (
             <header>
-                    <img src={Logo}></img>
+                <img src={Logo}></img>
                 <div>
                 <a href="#"> Product </a>
                 <a href="#"> Use cases </a>

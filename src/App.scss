@@ -21,10 +21,12 @@ a,
 a:link,
 a:visited {
     text-decoration: none;
+    transition: 0.5s;
 }
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: #5C9DFF;
 }
 /* Common */
 ul, ul li {
@@ -56,6 +58,7 @@ button, input[type="submit"] {
     background-color: transparent;
     background: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 input:focus, input:active,
 button:focus, button:active {
@@ -81,4 +84,11 @@ body {
     flex-direction: column;
     width: 100%;
     max-width: 1140px;
+}
+#Circle {
+    position: absolute;
+    width: 388px;
+    height: 131px;
+    background: #5C9DFF;
+    filter: blur(332px);
 }

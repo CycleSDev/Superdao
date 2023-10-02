@@ -1,0 +1,84 @@
+@import "/src/Variables.scss";
+
+.Slider {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .Slider__h2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: $HeadingSize;
+        font-weight: 600;
+    }
+    .Slider__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .Slider__content-Menu {
+            width: 100%;
+            margin-top: 42px;
+            margin-bottom: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            p {
+                color: #8395a7;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 28px;
+                transition: 0.5s;
+                text-align: center;
+            }
+            P:hover {
+                color: #ffc803;
+                cursor: pointer;
+            }
+            .Slider-Menu-Selected {
+                color: #ffc803;
+            }
+            .Slider__content-Menu-Ellipse {
+                display: block;
+                opacity: 0.6;
+                width: 5px;
+                height: 5px;
+                background-color: #8395a7;
+                border-radius: 50px;
+            }
+        }
+        .Slider__content-Window {
+            display: flex;
+            flex-direction: row;
+            max-width: 1000px;
+            max-height: 700px;
+            .Slider__content-Window-Item {
+                border-radius: 32px;
+            }
+        }
+    }
+    button {
+        padding: 16px 56px;
+        border-radius: 16px;
+        background: rgba(255, 207, 1, 0.15);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 44px;
+        font-size: $ButtonSize;
+        img {
+            margin-right: 12px;
+        }
+        p {
+            color: #ffcf01;
+            transition: 0.5s;
+            font-weight: 700;
+            font-size: $ButtonSize;
+        }
+        :hover {
+            color: #fff2b9;
+        }
+    }
+}

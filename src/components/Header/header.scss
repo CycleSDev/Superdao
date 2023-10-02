@@ -24,6 +24,18 @@ header {
         border-radius: 12px;
     }
     button:hover {
-        color: rgb(230, 230, 230);
+        color: #5C9DFF;
+    }
+    a {
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+    }
+    a:hover {
+        background-size: 100% 2px;
+    }
+    img:hover{
+        cursor: pointer;
     }
 }
