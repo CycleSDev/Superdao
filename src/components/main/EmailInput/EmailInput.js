@@ -2,6 +2,7 @@ import React from "react";
 import "./EmailInput.scss";
 
 export const EmailInput = () => {
+  
   const handleToggle = () => {
     const UserEmail = document.getElementsByClassName("EmailInput_form")[0].firstChild;
     const button = document.getElementById("EmailInput_form-button");
