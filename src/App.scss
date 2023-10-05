@@ -74,6 +74,7 @@ label {
 
 /* App */
 body {
+    white-space: nowrap;
     background-color: rgba(10, 17, 23, 1);
     display: flex;
     flex-direction: column;
@@ -82,6 +83,7 @@ body {
 #app {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     max-width: 1140px;
 }
@@ -90,6 +92,6 @@ body {
     width: 300px;
     height: 131px;
     background: #5C9DFF;
-    filter: blur(332px);
+    filter: blur(252px);
     z-index: -1;
 }

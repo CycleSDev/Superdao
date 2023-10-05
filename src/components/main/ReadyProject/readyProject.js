@@ -34,8 +34,7 @@ export const ReadyProject = () => {
               <div><p>1000+ projects launched on Superdao</p></div>
              </div>
              <div className="Project__List">
-              <img src={StarList}></img>
-              <h3>Designed for the full journey</h3>
+              <h3>Designed for the full journey<img src={StarList}></img></h3>
               <h3>Organisation design</h3>
               <h3>Smart contract development</h3>
               <h3>Fundraising</h3>

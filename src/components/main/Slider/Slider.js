@@ -16,14 +16,16 @@ export const Slider = () => {
         }
         }
         )
-    })
+    }, [])
 
     const imageIndex = Images["img" + sliderIndex]
 
     return (
         <div className="Slider">
          <div className="Slider__h2">
+         <div>
          <img src={SliderStar}></img>
+         </div>
          <h2>All the tools in one app</h2>
          </div>
          <div className="Slider__content">
