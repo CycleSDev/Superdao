@@ -1,10 +1,10 @@
 import React from "react";
-import "./EmailInput.scss";
+import "./Email.scss";
 
-export const EmailInput = () => {
-  
+export const Email = () => {
   const handleToggle = () => {
-    const UserEmail = document.getElementsByClassName("EmailInput_form")[0].firstChild;
+    const UserEmail =
+      document.getElementsByClassName("EmailInput_form")[0].firstChild;
     const button = document.getElementById("EmailInput_form-button");
 
     button.textContent = "Success";
@@ -25,11 +25,11 @@ export const EmailInput = () => {
     // });
     console.log(JSON.stringify(UserEmail.value));
     UserEmail.value = "";
-
   };
 
   function onInput() {
-    const UserEmail = document.getElementsByClassName("EmailInput_form")[0].firstChild;
+    const UserEmail =
+      document.getElementsByClassName("EmailInput_form")[0].firstChild;
     const button = document.getElementById("EmailInput_form-button");
 
     if (isEmailValid(UserEmail.value)) {
@@ -42,7 +42,8 @@ export const EmailInput = () => {
   }
 
   function isEmailValid(value) {
-    const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
+    const EMAIL_REGEXP =
+      /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
     return EMAIL_REGEXP.test(value);
   }
 

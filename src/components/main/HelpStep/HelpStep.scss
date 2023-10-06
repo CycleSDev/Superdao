@@ -1,58 +1,53 @@
-.HelpStep{
+.HelpStep {
     margin-top: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
-    align-items: center;
     width: 100%;
-    h2{
+    h2 {
         font-size: 54px;
         font-weight: 700;
         line-height: 80px;
     }
-    .HelpStep__Img{
+    .HelpStep__Img {
         margin-top: 40px;
         display: flex;
-        flex-direction: row;
         justify-content: space-evenly;
         width: 100%;
-        img{
+        img {
             border-radius: 40px;
         }
     }
-    .HelpStep__Text{
+    .HelpStep__Text {
         margin-top: 50px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         width: 100%;
-        div{
+        div {
             width: 100%;
             display: flex;
-            flex-direction: row;
             justify-content: space-between;
             align-items: center;
             margin: 15px;
         }
-        .HelpStep__Text-item-1{
+        .HelpStep__Text-item-1 {
             max-width: 775px;
         }
-        .HelpStep__Text-item-2{
+        .HelpStep__Text-item-2 {
             max-width: 745px;
         }
-        .HelpStep__Text-item-3{
+        .HelpStep__Text-item-3 {
             max-width: 775px;
         }
-        .HelpStep__Text-item-4{
+        .HelpStep__Text-item-4 {
             max-width: 420px;
         }
-        p{
+        p {
             font-weight: 700;
             font-size: 40px;
         }
-        svg{
+        svg {
             min-width: 30px;
         }
     }

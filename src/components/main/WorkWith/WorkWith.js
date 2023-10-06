@@ -1,5 +1,5 @@
 import React from "react";
-import Images from "./importImages.js"
+import Images from "./importImages.js";
 import "./WorkWith.scss";
 
 export const WorkWith = () => {
@@ -9,7 +9,7 @@ export const WorkWith = () => {
         <div id="Circle"></div>
         <h2>Works with</h2>
         <div>
-         <img src={Images.WorksStar}></img>
+          <img src={Images.WorksStar}></img>
         </div>
       </div>
       <div className="Works__List">

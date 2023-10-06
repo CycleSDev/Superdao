@@ -5,52 +5,52 @@
     align-items: center;
     margin-top: 220px;
     border-radius: 30px;
-    border: 2px solid #2A3744;
-    background: #121E28;
+    border: 2px solid #2a3744;
+    background: #121e28;
     width: 100%;
-    h3{
+    h3 {
         font-size: 54px;
         font-weight: 700;
         line-height: 80px;
         margin-top: 40px;
     }
-    h4{
+    h4 {
         font-size: 36px;
         font-weight: 600;
         opacity: 0.6;
         margin-top: 26px;
     }
-    .EmailInput_form{
+    .EmailInput_form {
         margin-top: 70px;
         margin-bottom: 65px;
         display: flex;
         justify-content: space-between;
         width: 100%;
         max-width: 705px;
-        input{
-            color: #3D4C5B;
+        input {
+            color: #3d4c5b;
             width: 100%;
             max-width: 505px;
             min-width: 158px;
             height: 68px;
             border-radius: 16px;
-            border: 2px solid #2A3744;
-            background: #121E28;
+            border: 2px solid #2a3744;
+            background: #121e28;
             padding-left: 28px;
             font-size: 20px;
             font-weight: 600;
         }
-        input:focus{
+        input:focus {
             color: white;
+            border: 2px solid red;
         }
-        #EmailInput_form-button{
+        #EmailInput_form-button {
             color: black;
             font-size: 20px;
             font-weight: 600;
             line-height: 36px;
             border-radius: 16px;
-            background: #CEAAFF;
-            text-align: center;
+            background: #ceaaff;
             min-width: 175px;
         }
     }

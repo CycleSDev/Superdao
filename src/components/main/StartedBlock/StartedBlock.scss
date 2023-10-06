@@ -6,8 +6,7 @@
     margin-top: 170px;
     line-height: 82px;
     position: relative;
-    width: 100%;
-    #Circle{
+    #Circle {
         top: 60px;
     }
     h1 {
@@ -22,9 +21,9 @@
     button {
         margin-top: 56px;
         border-radius: 16px;
-        background-color: #FFCF01;
+        background-color: #ffcf01;
         padding: 16px 48px;
-        box-shadow: 0px 9px 44px 0px rgba(255, 207, 1, 0.20);
+        box-shadow: 0px 9px 44px 0px rgba(255, 207, 1, 0.2);
         color: black;
         font-weight: 700;
         font-size: 20px;
@@ -40,7 +39,13 @@
     }
 }
 @keyframes bounce {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }

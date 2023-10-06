@@ -1,21 +1,23 @@
 import React from "react";
-import { GetStarted } from "./GetStarted/GetStarted";
-import { ReadyProject } from "./ReadyProject/readyProject";
+import { StartedBlock } from "./StartedBlock/StartedBlock";
+import { ProjectList } from "./ProjectList/ProjectList";
 import { Slider } from "./Slider/Slider";
 import { WorkWith } from "./WorkWith/WorkWith";
 import { HelpStep } from "./HelpStep/HelpStep";
-import { EmailInput } from "./EmailInput/EmailInput";
+import { Email } from "./Email/Email";
+import { Backed } from "./Backed/Backed";
 
 export const Main = () => {
 
     return (
         <>
-         <GetStarted />
-         <ReadyProject />
+         <StartedBlock />
+         <ProjectList />
          <Slider />
          <WorkWith />
          <HelpStep />
-         <EmailInput />
+         <Email />
+         <Backed />
         </>
     )
 }
